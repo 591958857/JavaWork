@@ -1,0 +1,8 @@
+JVM内存参数
+Xmx：最大堆内存；
+Xms：堆内存初始大小；
+Xmn：年轻代内存大小；
+MaxpermSize：JDK1.7之前持久代内存大小；
+MaxMetaspaceSize：Jdk8之后，元数据空间内存大小；（默认不限制）
+MaxDirectMemorySize：可用最大堆外内存；
+Xss：每个线程栈的内存大小；
