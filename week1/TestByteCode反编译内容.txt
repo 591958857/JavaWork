@@ -1,0 +1,321 @@
+Classfile /G:/IT/eclipseWorkspace/test-Java/bin/com/alex/TestByteCode.class
+  Last modified 2021年6月26日; size 1713 bytes
+  SHA-256 checksum c28445d9c92ab27eb01cffed8fa7ef3d87bf1a22f60b919b12c18d2fc2fafacc
+  Compiled from "TestByteCode.java"
+public class com.alex.TestByteCode
+  minor version: 0
+  major version: 59
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #1                          // com/alex/TestByteCode
+  super_class: #3                         // java/lang/Object
+  interfaces: 0, fields: 6, methods: 4, attributes: 1
+Constant pool:
+    #1 = Class              #2            // com/alex/TestByteCode
+    #2 = Utf8               com/alex/TestByteCode
+    #3 = Class              #4            // java/lang/Object
+    #4 = Utf8               java/lang/Object
+    #5 = Utf8               i
+    #6 = Utf8               I
+    #7 = Utf8               l
+    #8 = Utf8               J
+    #9 = Utf8               f
+   #10 = Utf8               F
+   #11 = Utf8               d
+   #12 = Utf8               D
+   #13 = Utf8               str
+   #14 = Utf8               Ljava/lang/String;
+   #15 = Utf8               obj
+   #16 = Utf8               Ljava/lang/Object;
+   #17 = Utf8               <init>
+   #18 = Utf8               ()V
+   #19 = Utf8               Code
+   #20 = Methodref          #3.#21        // java/lang/Object."<init>":()V
+   #21 = NameAndType        #17:#18       // "<init>":()V
+   #22 = Fieldref           #1.#23        // com/alex/TestByteCode.i:I
+   #23 = NameAndType        #5:#6         // i:I
+   #24 = Long               100l
+   #26 = Fieldref           #1.#27        // com/alex/TestByteCode.l:J
+   #27 = NameAndType        #7:#8         // l:J
+   #28 = Float              1000.0f
+   #29 = Fieldref           #1.#30        // com/alex/TestByteCode.f:F
+   #30 = NameAndType        #9:#10        // f:F
+   #31 = Double             10000.0d
+   #33 = Fieldref           #1.#34        // com/alex/TestByteCode.d:D
+   #34 = NameAndType        #11:#12       // d:D
+   #35 = String             #36           // test
+   #36 = Utf8               test
+   #37 = Fieldref           #1.#38        // com/alex/TestByteCode.str:Ljava/lang/String;
+   #38 = NameAndType        #13:#14       // str:Ljava/lang/String;
+   #39 = Utf8               LineNumberTable
+   #40 = Utf8               LocalVariableTable
+   #41 = Utf8               this
+   #42 = Utf8               Lcom/alex/TestByteCode;
+   #43 = Utf8               fun
+   #44 = Utf8               (Ljava/lang/String;)V
+   #45 = String             #46           // hello
+   #46 = Utf8               hello
+   #47 = Class              #48           // java/lang/StringBuilder
+   #48 = Utf8               java/lang/StringBuilder
+   #49 = Methodref          #50.#52       // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+   #50 = Class              #51           // java/lang/String
+   #51 = Utf8               java/lang/String
+   #52 = NameAndType        #53:#54       // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+   #53 = Utf8               valueOf
+   #54 = Utf8               (Ljava/lang/Object;)Ljava/lang/String;
+   #55 = Methodref          #47.#56       // java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+   #56 = NameAndType        #17:#44       // "<init>":(Ljava/lang/String;)V
+   #57 = Methodref          #47.#58       // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #58 = NameAndType        #59:#60       // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #59 = Utf8               append
+   #60 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+   #61 = Methodref          #47.#62       // java/lang/StringBuilder.toString:()Ljava/lang/String;
+   #62 = NameAndType        #63:#64       // toString:()Ljava/lang/String;
+   #63 = Utf8               toString
+   #64 = Utf8               ()Ljava/lang/String;
+   #65 = Fieldref           #66.#68       // java/lang/System.out:Ljava/io/PrintStream;
+   #66 = Class              #67           // java/lang/System
+   #67 = Utf8               java/lang/System
+   #68 = NameAndType        #69:#70       // out:Ljava/io/PrintStream;
+   #69 = Utf8               out
+   #70 = Utf8               Ljava/io/PrintStream;
+   #71 = Methodref          #72.#74       // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #72 = Class              #73           // java/io/PrintStream
+   #73 = Utf8               java/io/PrintStream
+   #74 = NameAndType        #75:#44       // println:(Ljava/lang/String;)V
+   #75 = Utf8               println
+   #76 = Utf8               param1
+   #77 = Utf8               str1
+   #78 = Utf8               fun1
+   #79 = Utf8               (ILjava/lang/String;)D
+   #80 = Methodref          #50.#81       // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #81 = NameAndType        #82:#83       // equals:(Ljava/lang/Object;)Z
+   #82 = Utf8               equals
+   #83 = Utf8               (Ljava/lang/Object;)Z
+   #84 = Fieldref           #1.#85        // com/alex/TestByteCode.obj:Ljava/lang/Object;
+   #85 = NameAndType        #15:#16       // obj:Ljava/lang/Object;
+   #86 = Methodref          #3.#62        // java/lang/Object.toString:()Ljava/lang/String;
+   #87 = Double             10.0d
+   #89 = Utf8               param2
+   #90 = Utf8               j
+   #91 = Utf8               StackMapTable
+   #92 = Utf8               main
+   #93 = Utf8               ([Ljava/lang/String;)V
+   #94 = String             #95           // world
+   #95 = Utf8               world
+   #96 = Methodref          #1.#97        // com/alex/TestByteCode.fun:(Ljava/lang/String;)V
+   #97 = NameAndType        #43:#44       // fun:(Ljava/lang/String;)V
+   #98 = Methodref          #1.#21        // com/alex/TestByteCode."<init>":()V
+   #99 = String             #100          // test0
+  #100 = Utf8               test0
+  #101 = Methodref          #1.#102       // com/alex/TestByteCode.fun1:(ILjava/lang/String;)D
+  #102 = NameAndType        #78:#79       // fun1:(ILjava/lang/String;)D
+  #103 = String             #104          // test1
+  #104 = Utf8               test1
+  #105 = String             #106          // test2
+  #106 = Utf8               test2
+  #107 = Utf8               args
+  #108 = Utf8               [Ljava/lang/String;
+  #109 = Utf8               testByteCode
+  #110 = Utf8               SourceFile
+  #111 = Utf8               TestByteCode.java
+{
+  public com.alex.TestByteCode();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #20                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        10
+         7: putfield      #22                 // Field i:I
+        10: aload_0
+        11: ldc2_w        #24                 // long 100l
+        14: putfield      #26                 // Field l:J
+        17: aload_0
+        18: ldc           #28                 // float 1000.0f
+        20: putfield      #29                 // Field f:F
+        23: aload_0
+        24: ldc2_w        #31                 // double 10000.0d
+        27: putfield      #33                 // Field d:D
+        30: aload_0
+        31: ldc           #35                 // String test
+        33: putfield      #37                 // Field str:Ljava/lang/String;
+        36: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+        line 6: 10
+        line 7: 17
+        line 8: 23
+        line 10: 30
+        line 3: 36
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      37     0  this   Lcom/alex/TestByteCode;
+
+  public static void fun(java.lang.String);
+    descriptor: (Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=1
+         0: ldc           #45                 // String hello
+         2: astore_1
+         3: new           #47                 // class java/lang/StringBuilder
+         6: dup
+         7: aload_1
+         8: invokestatic  #49                 // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+        11: invokespecial #55                 // Method java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+        14: aload_0
+        15: invokevirtual #57                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        18: invokevirtual #61                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        21: astore_1
+        22: getstatic     #65                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        25: aload_1
+        26: invokevirtual #71                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        29: return
+      LineNumberTable:
+        line 15: 0
+        line 16: 3
+        line 17: 22
+        line 18: 29
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      30     0 param1   Ljava/lang/String;
+            3      27     1  str1   Ljava/lang/String;
+
+  public double fun1(int, java.lang.String);
+    descriptor: (ILjava/lang/String;)D
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=6, locals=4, args_size=3
+         0: iload_1
+         1: iconst_1
+         2: if_icmple     23
+         5: aload_0
+         6: getfield      #22                 // Field i:I
+         9: i2l
+        10: aload_0
+        11: getfield      #26                 // Field l:J
+        14: ladd
+        15: l2f
+        16: aload_0
+        17: getfield      #29                 // Field f:F
+        20: fmul
+        21: f2d
+        22: dreturn
+        23: iload_1
+        24: iconst_1
+        25: if_icmpge     45
+        28: aload_0
+        29: getfield      #33                 // Field d:D
+        32: aload_0
+        33: getfield      #26                 // Field l:J
+        36: aload_0
+        37: getfield      #22                 // Field i:I
+        40: i2l
+        41: lsub
+        42: l2d
+        43: ddiv
+        44: dreturn
+        45: aload_0
+        46: getfield      #37                 // Field str:Ljava/lang/String;
+        49: aload_2
+        50: invokevirtual #80                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        53: ifne          109
+        56: aload_0
+        57: new           #3                  // class java/lang/Object
+        60: dup
+        61: invokespecial #20                 // Method java/lang/Object."<init>":()V
+        64: putfield      #84                 // Field obj:Ljava/lang/Object;
+        67: aload_0
+        68: getfield      #84                 // Field obj:Ljava/lang/Object;
+        71: invokevirtual #86                 // Method java/lang/Object.toString:()Ljava/lang/String;
+        74: aload_2
+        75: invokevirtual #80                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        78: ifne          109
+        81: iconst_0
+        82: istore_3
+        83: goto          101
+        86: aload_0
+        87: dup
+        88: getfield      #33                 // Field d:D
+        91: ldc2_w        #87                 // double 10.0d
+        94: ddiv
+        95: putfield      #33                 // Field d:D
+        98: iinc          3, 1
+       101: iload_3
+       102: aload_0
+       103: getfield      #22                 // Field i:I
+       106: if_icmplt     86
+       109: aload_0
+       110: getfield      #33                 // Field d:D
+       113: dreturn
+      LineNumberTable:
+        line 21: 0
+        line 22: 5
+        line 25: 23
+        line 26: 28
+        line 29: 45
+        line 30: 56
+        line 31: 67
+        line 32: 81
+        line 33: 86
+        line 32: 98
+        line 38: 109
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0     114     0  this   Lcom/alex/TestByteCode;
+            0     114     1 param1   I
+            0     114     2 param2   Ljava/lang/String;
+           83      26     3     j   I
+      StackMapTable: number_of_entries = 5
+        frame_type = 23 /* same */
+        frame_type = 21 /* same */
+        frame_type = 252 /* append */
+          offset_delta = 40
+          locals = [ int ]
+        frame_type = 14 /* same */
+        frame_type = 250 /* chop */
+          offset_delta = 7
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=1
+         0: ldc           #94                 // String world
+         2: invokestatic  #96                 // Method fun:(Ljava/lang/String;)V
+         5: new           #1                  // class com/alex/TestByteCode
+         8: dup
+         9: invokespecial #98                 // Method "<init>":()V
+        12: astore_1
+        13: aload_1
+        14: iconst_0
+        15: ldc           #99                 // String test0
+        17: invokevirtual #101                // Method fun1:(ILjava/lang/String;)D
+        20: pop2
+        21: aload_1
+        22: iconst_1
+        23: ldc           #103                // String test1
+        25: invokevirtual #101                // Method fun1:(ILjava/lang/String;)D
+        28: pop2
+        29: aload_1
+        30: iconst_2
+        31: ldc           #105                // String test2
+        33: invokevirtual #101                // Method fun1:(ILjava/lang/String;)D
+        36: pop2
+        37: return
+      LineNumberTable:
+        line 42: 0
+        line 44: 5
+        line 45: 13
+        line 46: 21
+        line 47: 29
+        line 48: 37
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      38     0  args   [Ljava/lang/String;
+           13      25     1 testByteCode   Lcom/alex/TestByteCode;
+}
+SourceFile: "TestByteCode.java"
