@@ -1,0 +1,48 @@
+CREATE TABLE `testdb`.`user` (
+  `userId` INT NOT NULL,
+  `userName` VARCHAR(45) NULL,
+  `nickname` VARCHAR(45) NULL,
+  `sex` VARCHAR(5) NULL,
+  `birthdate` DATETIME NULL,
+  `userType` VARCHAR(45) NULL,
+  `userLevel` VARCHAR(5) NULL,
+  `address` VARCHAR(300) NULL,
+  `email` VARCHAR(45) NULL,
+  `phoneNumber` VARCHAR(30) NULL,
+  `memo` VARCHAR(100) NULL,
+  `createTime` DATETIME NULL,
+  `updateTime` DATETIME NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`userId`));
+
+CREATE TABLE `testdb`.`product` (
+  `pId` INT NOT NULL,
+  `pName` VARCHAR(45) NULL,
+  `pCode` VARCHAR(45) NULL,
+  `pPrice` VARCHAR(45) NULL,
+  `pType` VARCHAR(45) NULL,
+  `pDesc` VARCHAR(45) NULL,
+  `pStock` VARCHAR(45) NULL,
+  `memo` VARCHAR(45) NULL,
+  `createTime` DATETIME NULL,
+  `updateTime` DATETIME NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`pId`));
+
+CREATE TABLE `testdb`.`order` (
+  `orderId` INT NOT NULL,
+  `userId` VARCHAR(45) NULL,
+  `userName` VARCHAR(45) NULL,
+  `userAddress` VARCHAR(45) NULL,
+  `userPhoneNumber` VARCHAR(45) NULL,
+  `userEmail` VARCHAR(45) NULL,
+  `pId` VARCHAR(45) NULL,
+  `pName` VARCHAR(45) NULL,
+  `pCount` VARCHAR(45) NULL,
+  `pTotalPrice` VARCHAR(45) NULL,
+  `deliveryType` VARCHAR(45) NULL,
+  `paymentType` VARCHAR(45) NULL,
+  `paymentTime` VARCHAR(45) NULL,
+  `orderStatus` VARCHAR(45) NULL,
+  `memo` VARCHAR(45) NULL,
+  `createTime` DATETIME NULL,
+  `updateTime` DATETIME NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`orderId`));
